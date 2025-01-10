@@ -19,6 +19,7 @@ Bu proje, bir kahve dükkanında stok yönetimini kolaylaştırmak amacıyla gel
 - **Stok Güncelleme**: Mevcut bir ürünün adı, miktarı veya tarihi güncellenebilir.
 - **Stok Silme**: Stoktaki bir ürün tamamen kaldırılabilir.
 - **Stok Durumu Görüntüleme**: Tüm stoklar tablo halinde görüntülenebilir.
+- **Debug için İşlenen Kodu Görüntüleme**: İşlenen kodun çıktısı en başta gösterilir(Bunu İsterseniz "echo $sql" kodunu silerek sadece kayıt eklendi çıktısını göstertebilirsiniz.), Hata meydana geldiğinde ise hata mesajını da gösterir
 
 ---
 
@@ -82,6 +83,7 @@ This project is designed to simplify stock management for a shop. Users can add 
 - **Update Stock**: Modify the name, quantity, or date of an existing product.
 - **Delete Stock**: Completely remove a product from the stock.
 - **View Stock Status**: Display all stock information in a table format.
+- **Displaying the Processed Code for Debug**: The output of the processed code is shown at the beginning (If you want, you can delete the "echo $sql" code and only show the record added output.), and when an error occurs, it also shows the error message.
 
 ## Installation
 
